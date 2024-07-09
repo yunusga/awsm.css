@@ -50,14 +50,11 @@ aside{
 a{
   color:#0064C1;
   text-decoration:none;
-  -webkit-transition:color 300ms;
   transition:color 300ms; }
   a:visited{
     color:#6d00c1; }
-  a:hover,
-  a:focus{
+  a:hover, a:focus{
     color:#3000c1;
-    -webkit-transition:color 0ms;
     transition:color 0ms; }
 
 nav{
@@ -72,8 +69,7 @@ nav{
       color:#7D7D77; }
   nav a:visited{
     color:#0064C1; }
-  nav a:hover,
-  nav a:focus{
+  nav a:hover, nav a:focus{
     color:#3000c1; }
 
 h1{
@@ -99,7 +95,7 @@ h3{
   font-weight:400; }
 
 h4{
-  margin:0 0 0.5em;
+  margin:0 0 .5em;
   color:#63635e;
   font-size:1rem; }
 
@@ -120,12 +116,11 @@ legend{
 
 button{
   box-sizing:border-box;
-  padding:0.3em 0.5em;
+  padding:.3em .5em;
   border:1px solid #b5b5b5;
   outline:none;
   font-size:1em;
   font-family:inherit;
-  -webkit-transition:border 200ms;
   transition:border 200ms;
   display:inline-block;
   width:auto;
@@ -141,12 +136,11 @@ button{
 
 select{
   box-sizing:border-box;
-  padding:0.3em 0.5em;
+  padding:.3em .5em;
   border:1px solid #b5b5b5;
   outline:none;
   font-size:1em;
   font-family:inherit;
-  -webkit-transition:border 200ms;
   transition:border 200ms;
   display:inline-block;
   width:auto;
@@ -161,50 +155,28 @@ select{
     background:#c2c2c2;
     color:#070600; }
 
-input[type=text],
-input[type^=date],
-input[type=email],
-input[type=number],
-input[type=search],
-input[type=tel],
-input[type=time],
-input[type=month],
-input[type=week],
-input[type=url]{
+input[type=text], input[type^=date], input[type=email], input[type=number], input[type=search], input[type=tel], input[type=time], input[type=month], input[type=week], input[type=url]{
   box-sizing:border-box;
-  padding:0.3em 0.5em;
+  padding:.3em .5em;
   border:1px solid #b5b5b5;
   outline:none;
   font-size:1em;
   font-family:inherit;
-  -webkit-transition:border 200ms;
   transition:border 200ms;
   display:block;
   width:100%;
   border-radius:0;
   display:block; }
-  input[type=text]:focus,
-  input[type^=date]:focus,
-  input[type=email]:focus,
-  input[type=number]:focus,
-  input[type=search]:focus,
-  input[type=tel]:focus,
-  input[type=time]:focus,
-  input[type=month]:focus,
-  input[type=week]:focus,
-  input[type=url]:focus{
+  input[type=text]:focus, input[type^=date]:focus, input[type=email]:focus, input[type=number]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=month]:focus, input[type=week]:focus, input[type=url]:focus{
     border:1px solid dimgray; }
 
-input[type=submit],
-input[type=button],
-input[type=reset]{
+input[type=submit], input[type=button], input[type=reset]{
   box-sizing:border-box;
-  padding:0.3em 0.5em;
+  padding:.3em .5em;
   border:1px solid #b5b5b5;
   outline:none;
   font-size:1em;
   font-family:inherit;
-  -webkit-transition:border 200ms;
   transition:border 200ms;
   display:inline-block;
   width:auto;
@@ -214,24 +186,18 @@ input[type=reset]{
   color:#25291C;
   cursor:pointer;
   -webkit-appearance:none; }
-  input[type=submit]:focus,
-  input[type=submit]:hover,
-  input[type=button]:focus,
-  input[type=button]:hover,
-  input[type=reset]:focus, input[type=reset]:hover{
+  input[type=submit]:focus, input[type=submit]:hover, input[type=button]:focus, input[type=button]:hover, input[type=reset]:focus, input[type=reset]:hover{
     border:1px solid dimgray;
     background:#c2c2c2;
     color:#070600; }
 
-input[type=color],
-input[type=file]{
+input[type=color], input[type=file]{
   box-sizing:border-box;
-  padding:0.3em 0.5em;
+  padding:.3em .5em;
   border:1px solid #b5b5b5;
   outline:none;
   font-size:1em;
   font-family:inherit;
-  -webkit-transition:border 200ms;
   transition:border 200ms;
   display:inline-block;
   width:auto;
@@ -241,9 +207,7 @@ input[type=file]{
   color:#25291C;
   cursor:pointer;
   display:block; }
-  input[type=color]:focus,
-  input[type=color]:hover,
-  input[type=file]:focus, input[type=file]:hover{
+  input[type=color]:focus, input[type=color]:hover, input[type=file]:focus, input[type=file]:hover{
     border:1px solid dimgray;
     background:#c2c2c2;
     color:#070600; }
@@ -257,12 +221,11 @@ input[type=file]{
 
 textarea{
   box-sizing:border-box;
-  padding:0.3em 0.5em;
+  padding:.3em .5em;
   border:1px solid #b5b5b5;
   outline:none;
   font-size:1em;
   font-family:inherit;
-  -webkit-transition:border 200ms;
   transition:border 200ms;
   display:block;
   width:100%;
@@ -289,7 +252,7 @@ code{
   border:1px solid #E8E8E8;
   border-radius:1px;
   font-family:Consolas, Courier, monospace;
-  padding:0.0625em 0.3125em; }
+  padding:0.06250em 0.31250em; }
 
 img{
   display:block;
@@ -300,7 +263,7 @@ p{
   margin:.5em 0; }
   p img{
     float:right;
-    margin:0.3em 0 0.3em 0.5em;
+    margin:.3em 0 .3em .5em;
     border:1px solid #E8E8E8; }
 
 figure{
@@ -332,15 +295,15 @@ dl{
 
 details{
   display:block;
-  padding:0 0.5em 0;
+  padding:0 .5em 0;
   margin:20px 0;
   border:1px solid #E8E8E8;
   border-radius:1px;
   background-color:#fafafa; }
   details summary{
     display:block;
-    padding:0 0.5em 0.1em;
-    margin:0 -0.5em 0;
+    padding:0 .5em .1em;
+    margin:0 -.5em 0;
     background-color:white;
     outline:none;
     font-weight:700;
@@ -352,8 +315,7 @@ table{
   width:100%;
   overflow-x:auto;
   vertical-align:top;
-  background:-webkit-radial-gradient(left, ellipse, rgba(0, 0, 0, 0.2) 0%, transparent 75%) 0 center, -webkit-radial-gradient(right, ellipse, rgba(0, 0, 0, 0.2) 0%, transparent 75%) 100% center;
-  background:radial-gradient(left, ellipse, rgba(0, 0, 0, 0.2) 0%, transparent 75%) 0 center, radial-gradient(right, ellipse, rgba(0, 0, 0, 0.2) 0%, transparent 75%) 100% center;
+  background:radial-gradient(left, ellipse, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(right, ellipse, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
   background-size:10px 100%, 10px 100%;
   background-attachment:scroll, scroll;
   background-repeat:no-repeat;
@@ -367,16 +329,14 @@ table{
   table thead{
     background:#E8E8E8; }
   table td, table th{
-    padding:0.3em 0.7em;
+    padding:.3em .7em;
     border:1px solid #E8E8E8;
     vertical-align:top; }
   table td:first-child{
-    background-image:-webkit-linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%);
     background-image:linear-gradient(to right, white 50%, rgba(255, 255, 255, 0) 100%);
     background-size:20px 100%;
     background-repeat:no-repeat; }
   table td:last-child{
-    background-image:-webkit-linear-gradient(right, white 50%, rgba(255, 255, 255, 0) 100%);
     background-image:linear-gradient(to left, white 50%, rgba(255, 255, 255, 0) 100%);
     background-position:100% 0;
     background-size:20px 100%;
@@ -425,7 +385,7 @@ noscript{
 
 kbd{
   display:inline-block;
-  padding:0 0.6ex;
+  padding:0 .6ex;
   margin:0 0.4ex;
   background:#f9f9f8;
   border-radius:5px;
